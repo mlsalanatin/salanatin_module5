@@ -1,0 +1,32 @@
+*{margin: 0px; padding: 0px;}
+.navbar{
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+#links{display: inline;}
+#links a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(255, 163, 209);
+    color: black;
+    opacity: .55;
+    transition: .4s;
+}
+#links a:hover{opacity: 1; transition: .4s;}
+
+.banner{
+    background-image: url(Capture.PNG);
+    height: 168px;
+    width: 962px;
+    position: relative;
+}
+.banner a{
+    position: absolute;
+    padding: 3px;
+    background-color: rgb(132, 140, 250);
+    bottom: 100%;
+}

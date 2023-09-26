@@ -1,0 +1,22 @@
+.menubar{
+    background-color: rgb(255, 188, 221);
+    border: 1px solid rgb(255, 254, 254);
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+#links{
+    display: inline;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 163, 209);
+}
+#links a{
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
